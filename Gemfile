@@ -21,6 +21,17 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'therubyracer'
+gem 'execjs'
+gem 'haml'
+gem 'haml-rails'
+gem 'simple_form'
+gem 'bootstrap-sass'
+gem 'thin'
+
+group :development do
+	gem 'pry'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

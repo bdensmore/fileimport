@@ -1,0 +1,6 @@
+= simple_form_for(@file_import, url: upload_file_path, :html => {:class => 'form-horizontal', multipart: true } ) do |f|
+	= f.error_notification
+	= f.association :user, prompt: "Please Select"
+	= f.file_field :name
+	= f.error :base
+	= f.button :submit
